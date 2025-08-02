@@ -12,6 +12,36 @@ AZipper is a desktop application for Windows, written in C++, that allows compre
 - **Open files** directly from the archive
 - **Archive corruption detection**
 
+## 📸 Screenshots
+<table>
+  <tr>
+    <td align="center">
+      <b>Layout</b><br>
+      <img src="ReadMe_Images/Layout.png" width="500" style="margin-bottom: 20px;"/>
+    </td>
+    <td align="center">
+      <b>Drag & Drop</b><br>
+      <img src="ReadMe_Images/Drag_and_Drop.png" width="500" style="margin-bottom: 20px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Progress Bar</b><br>
+      <img src="ReadMe_Images/Progress_Bar.png" width="500" style="margin-bottom: 20px;"/>
+    </td>
+    <td align="center">
+      <b>Unsaved Changes</b><br>
+      <img src="ReadMe_Images/Unsaved_Changes.png" width="500" style="margin-bottom: 20px;"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <b>Archive Corrupted</b><br>
+      <img src="ReadMe_Images/Archive_Corrupted.png" width="500" style="margin-bottom: 20px;"/>
+    </td>
+  </tr>
+</table>
+
 ## 🗂️ Project Structure
 - `AZipper.cpp` – graphical interface, main logic, UI events
 - `Compresor/Compressor.cpp, .h` – compression/decompression, insert, delete, move files
@@ -100,4 +130,5 @@ g++ AZipper.cpp Icon/icon.o imgui/imgui.cpp imgui/imgui_draw.cpp imgui/imgui_wid
 ```
 
 ## 📄 License
+
 Open-source project under the MIT license.
