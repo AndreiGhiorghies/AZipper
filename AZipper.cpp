@@ -1478,7 +1478,7 @@ int main(int argc, char *argv[])
 
             if (result != -1) {
                 if (result == 1) {
-                    string address = openSaveFileDialog();
+                    string address = openSaveFileDialog(true);
                     if (address != "") {
                         try
                         {
@@ -1551,3 +1551,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
